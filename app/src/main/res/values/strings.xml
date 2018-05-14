@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IPL2018</string>
+    <string name="team_a">SRH</string>
+    <string name="team_b">CSK</string>
+    <string name="score_ab">0</string>
+    <string name="one_run">+1 Run</string>
+    <string name="two_run">+2 Runs</string>
+    <string name="four_run">+4 Runs</string>
+    <string name="six_runs">+6 Runs</string>
+    <string name="reset">RESET</string>
+    <string name="srh_logo">SUN RISERS HYDERABAD</string>
+    <string name="csk_logo">CHENNAI SUPER KINGS</string>
+
+</resources>

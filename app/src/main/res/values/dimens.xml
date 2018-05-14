@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageHeight">60dp</dimen>
+    <dimen name="reset">32dp</dimen>
+    <dimen name="leftRight">24dp</dimen>
+    <dimen name="leftRightMargin">12dp</dimen>
+    <dimen name="betweenButtons">10dp</dimen>
+    <dimen name="betweenText">16dp</dimen>
+    <dimen name="betweenTextAndLogo">8dp</dimen>
+    <dimen name="teamName">20sp</dimen>
+    <dimen name="scoreBoard">60sp</dimen>
+    <dimen name="tags">2dp</dimen>
+</resources>
