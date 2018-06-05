@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Color used in gradient; "color primary and fourth color is used for ripple effect. -->
     <color name="colorPrimary">#1F1F1F</color>
     <color name="colorPrimaryDark">#00B5AC</color>
-    <color name="colorAccent">#9D9D9D</color>
-    <color name="textColor">#CECECE</color>
-    <color name="secondColor">#0A8C85</color>
-    <color name="thirdColor">#FDFDFD</color>
     <color name="fourthColor">#16D1C7</color>
+
+    <!--Score board background -->
+    <color name="score_board">#40dec7</color>
+
+    <!--Text colour-->
+    <color name="thirdColor">#FDFDFD</color>
+
+
 </resources>

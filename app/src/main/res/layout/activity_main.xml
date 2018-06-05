@@ -1,229 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/gradient_background">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
 
+            <!-- First column (Team A)-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:orientation="horizontal">
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
+                <!-- Logo of  Team A-->
+                <ImageView
+                    style="@style/logo"
+                    android:contentDescription="@string/srh_logo"
+                    android:src="@drawable/sun_risers" />
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/imageHeight"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="@dimen/betweenText"
-                        android:contentDescription="@string/srh_logo"
-                        android:src="@drawable/sunrisers"
-                        android:visibility="visible" />
+                <!-- Score Board of  Team A-->
+                <TextView
+                    android:id="@+id/team_a_score"
+                    style="@style/team_score" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginEnd="@dimen/leftRight"
-                        android:layout_marginStart="@dimen/leftRight"
-                        android:layout_marginTop="@dimen/betweenTextAndLogo"
-                        android:text="@string/team_a"
-                        android:textColor="@color/thirdColor"
-                        android:textSize="@dimen/teamName" />
+                <!-- Runs button for  Team A-->
+                <Button
+                    style="@style/button"
+                    android:layout_marginTop="@dimen/margin_score_board"
+                    android:onClick="addOnePointsToA"
+                    android:text="@string/one_run" />
 
-                    <TextView
-                        android:id="@+id/team_a_score"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginEnd="@dimen/leftRight"
-                        android:layout_marginStart="@dimen/leftRight"
-                        android:layout_marginTop="@dimen/betweenText"
-                        android:text="@string/score_ab"
-                        android:textColor="@color/thirdColor"
-                        android:textSize="@dimen/scoreBoard"
-                        android:visibility="visible" />
+                <Button
+                    style="@style/button"
+                    android:onClick="addTwoPointsToA"
+                    android:text="@string/two_run" />
 
+                <Button
+                    style="@style/button"
+                    android:onClick="addFourPointsToA"
+                    android:text="@string/four_run" />
 
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="@dimen/leftRightMargin"
-                        android:layout_marginLeft="@dimen/leftRight"
-                        android:layout_marginRight="@dimen/leftRightMargin"
-                        android:layout_marginStart="@dimen/leftRight"
-                        android:layout_marginTop="@dimen/leftRight"
-                        android:background="@drawable/ripple_effect"
-                        android:onClick="addOnePointsToA"
-                        android:text="@string/one_run"
-                        android:textColor="@color/textColor" />
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/betweenButtons"
-                        android:layout_marginEnd="@dimen/leftRightMargin"
-                        android:layout_marginLeft="@dimen/leftRight"
-                        android:layout_marginRight="@dimen/leftRightMargin"
-                        android:layout_marginStart="@dimen/leftRight"
-                        android:layout_marginTop="@dimen/betweenButtons"
-                        android:background="@drawable/ripple_effect"
-                        android:onClick="addTwoPointsToA"
-                        android:text="@string/two_run"
-                        android:textColor="@color/textColor" />
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/betweenButtons"
-                        android:layout_marginEnd="@dimen/leftRightMargin"
-                        android:layout_marginLeft="@dimen/leftRight"
-                        android:layout_marginRight="@dimen/leftRightMargin"
-                        android:layout_marginStart="@dimen/leftRight"
-                        android:background="@drawable/ripple_effect"
-                        android:onClick="addFourPointsToA"
-                        android:text="@string/four_run"
-                        android:textColor="@color/textColor" />
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="@dimen/leftRightMargin"
-                        android:layout_marginLeft="@dimen/leftRight"
-                        android:layout_marginRight="@dimen/leftRightMargin"
-                        android:layout_marginStart="@dimen/leftRight"
-                        android:background="@drawable/ripple_effect"
-                        android:onClick="addSixPointsToA"
-                        android:text="@string/six_runs"
-                        android:textColor="@color/textColor" />
-                </LinearLayout>
-
-                <View
-                    android:layout_width="@dimen/tags"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/gradient_background" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/imageHeight"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="@dimen/betweenText"
-                        android:contentDescription="@string/csk_logo"
-                        android:src="@drawable/csklogo"
-                        android:visibility="visible" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="@dimen/betweenTextAndLogo"
-                        android:text="@string/team_b"
-                        android:textColor="@color/thirdColor"
-                        android:textSize="@dimen/teamName" />
-
-                    <TextView
-                        android:id="@+id/team_b_score"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="@dimen/betweenText"
-                        android:text="@string/score_ab"
-                        android:textColor="@color/thirdColor"
-                        android:textSize="@dimen/scoreBoard"
-                        android:visibility="visible" />
-
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="@dimen/leftRight"
-                        android:layout_marginLeft="@dimen/leftRightMargin"
-                        android:layout_marginRight="@dimen/leftRight"
-                        android:layout_marginStart="@dimen/leftRightMargin"
-                        android:layout_marginTop="@dimen/leftRight"
-                        android:background="@drawable/ripple_effect"
-                        android:onClick="addOnePointsToB"
-                        android:text="@string/one_run"
-                        android:textColor="@color/textColor" />
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/betweenButtons"
-                        android:layout_marginEnd="@dimen/leftRight"
-                        android:layout_marginLeft="@dimen/leftRightMargin"
-                        android:layout_marginRight="@dimen/leftRight"
-                        android:layout_marginStart="@dimen/leftRightMargin"
-                        android:layout_marginTop="@dimen/betweenButtons"
-                        android:background="@drawable/ripple_effect"
-                        android:onClick="addTwoPointsToB"
-                        android:text="@string/two_run"
-                        android:textColor="@color/textColor" />
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/betweenButtons"
-                        android:layout_marginEnd="@dimen/leftRight"
-                        android:layout_marginLeft="@dimen/leftRightMargin"
-                        android:layout_marginRight="@dimen/leftRight"
-                        android:layout_marginStart="@dimen/leftRightMargin"
-                        android:background="@drawable/ripple_effect"
-                        android:onClick="addFourPointsToB"
-                        android:text="@string/four_run"
-                        android:textColor="@color/textColor" />
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="@dimen/leftRight"
-                        android:layout_marginLeft="@dimen/leftRightMargin"
-                        android:layout_marginRight="@dimen/leftRight"
-                        android:layout_marginStart="@dimen/leftRightMargin"
-                        android:background="@drawable/ripple_effect"
-                        android:onClick="addSixPointsToB"
-                        android:text="@string/six_runs"
-                        android:textColor="@color/textColor" />
-                </LinearLayout>
+                <Button
+                    style="@style/button"
+                    android:onClick="addSixPointsToA"
+                    android:text="@string/six_runs" />
             </LinearLayout>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/reset"
-                android:background="@drawable/ripple_effect"
-                android:onClick="resetTeamAandB"
-                android:text="@string/reset"
-                android:textColor="@color/thirdColor"
-                android:visibility="visible" />
+            <!-- View tag for the partition between the two team -->
+            <View
+                android:layout_width="@dimen/tags"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient_background" />
 
-        </RelativeLayout>
+            <!-- Second column (Team B)-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <!-- Logo of  Team B-->
+                <ImageView
+                    style="@style/logo"
+                    android:contentDescription="@string/csk_logo"
+                    android:src="@drawable/csk_logo"
+                    android:visibility="visible" />
+
+                <!-- Score board of Team B-->
+                <TextView
+                    android:id="@+id/team_b_score"
+                    style="@style/team_score" />
+
+                <!-- Score button for Team B-->
+                <Button
+                    style="@style/button"
+                    android:layout_marginTop="@dimen/margin_score_board"
+                    android:onClick="addOnePointsToB"
+                    android:text="@string/one_run" />
+
+                <Button
+                    style="@style/button"
+                    android:onClick="addTwoPointsToB"
+                    android:text="@string/two_run" />
+
+                <Button
+                    style="@style/button"
+                    android:onClick="addFourPointsToB"
+                    android:text="@string/four_run" />
+
+                <Button
+                    style="@style/button"
+                    android:onClick="addSixPointsToB"
+                    android:text="@string/six_runs" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Reset Button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/end_dimension"
+            android:layout_marginTop="@dimen/reset"
+            android:background="@drawable/ripple_effect"
+            android:onClick="resetTeamAandB"
+            android:text="@string/reset"
+            android:textColor="@color/thirdColor" />
     </LinearLayout>
 </ScrollView>

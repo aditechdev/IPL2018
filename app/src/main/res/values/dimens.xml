@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="imageHeight">60dp</dimen>
-    <dimen name="reset">32dp</dimen>
-    <dimen name="leftRight">24dp</dimen>
-    <dimen name="leftRightMargin">12dp</dimen>
-    <dimen name="betweenButtons">10dp</dimen>
-    <dimen name="betweenText">16dp</dimen>
-    <dimen name="betweenTextAndLogo">8dp</dimen>
-    <dimen name="teamName">20sp</dimen>
-    <dimen name="scoreBoard">60sp</dimen>
+
+   <!-- Logo dimensions -->
+    <dimen name="logo_height">100dp</dimen>
+    <dimen name="logo_top_margin">25dp</dimen>
+    <dimen name="logo_left_right_mirgin">15dp</dimen>
+
+    <!-- Margin between "score board" and "first button". -->
+    <dimen name="margin_score_board">25dp</dimen>
+
+    <!-- View width dimensions. -->
     <dimen name="tags">2dp</dimen>
+
+    <!--Score button dimensions.-->
+    <dimen name="score_button_top_margin">10dp</dimen>
+    <dimen name="score_button_width">150dp</dimen>
+
+    <!-- Reset button dimensions. -->
+    <dimen name="reset">20dp</dimen>           <!-- Top margin for reset button -->
+    <dimen name="end_dimension">20dp</dimen>   <!-- Bottom margin for reset button -->
+
+
+    <!-- Score board text size. -->
+    <dimen name="scoreBoard">60sp</dimen>
 </resources>

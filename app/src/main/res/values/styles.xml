@@ -1,15 +1,44 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
 
-    <style name="ipl" parent="AppTheme" />
+    <!--  Logo theme. -->
+    <style name="logo">
+        <!-- Customize your logo theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/logo_height</item>
+        <item name="android:layout_marginTop">@dimen/logo_top_margin</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_marginLeft">@dimen/logo_left_right_mirgin</item>
+        <item name="android:layout_marginRight">@dimen/logo_left_right_mirgin</item>
+    </style>
 
+    <!--  Score board theme. -->
+    <style name="team_score">
+        <!-- Customize your score board theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/score_ab</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@color/score_board</item>
+        <item name="android:textColor">@color/thirdColor</item>
+        <item name="android:textSize">@dimen/scoreBoard</item>
+        <item name="android:layout_marginTop">@dimen/margin_score_board</item>
+    </style>
+
+    <!--  button theme. -->
+    <style name="button">
+        <!-- Customize your score button theme here. -->
+        <item name="android:layout_width">@dimen/score_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ripple_effect</item>
+        <item name="android:textColor">@color/thirdColor</item>
+        <item name="android:layout_marginTop">@dimen/score_button_top_margin</item>
+    </style>
 </resources>
-
-

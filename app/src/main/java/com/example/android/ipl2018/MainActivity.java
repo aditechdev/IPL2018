@@ -59,19 +59,19 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamB = scoreTeamB + 6;
         displayForTeamB(scoreTeamB);
     }
-
+    //Reset score//
     public void resetTeamAandB(View v) {
         scoreTeamA = 0;
         scoreTeamB = 0;
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
-
+    // Display score for team A //
     public void displayForTeamA(int scoreTeamA) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(scoreTeamA));
     }
-
+    // Display score for team B //
     public void displayForTeamB(int scoreTeamB) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(scoreTeamB));

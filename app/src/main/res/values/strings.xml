@@ -1,13 +1,23 @@
 <resources>
     <string name="app_name">IPL2018</string>
+
+    <!--Team Name-->
     <string name="team_a">SRH</string>
     <string name="team_b">CSK</string>
+
+    <!--Score Board initial text-->
     <string name="score_ab">0</string>
+
+    <!--Increment runs button -->
     <string name="one_run">+1 Run</string>
     <string name="two_run">+2 Runs</string>
     <string name="four_run">+4 Runs</string>
     <string name="six_runs">+6 Runs</string>
+
+    <!-- Reset button -->
     <string name="reset">RESET</string>
+
+    <!-- Content description of both the team -->
     <string name="srh_logo">SUN RISERS HYDERABAD</string>
     <string name="csk_logo">CHENNAI SUPER KINGS</string>
 
