@@ -17,7 +17,7 @@
     <dimen name="score_button_width">150dp</dimen>
 
     <!-- Reset button dimensions. -->
-    <dimen name="reset">20dp</dimen>           <!-- Top margin for reset button -->
+    <dimen name="reset">25dp</dimen>           <!-- Top margin for reset button -->
     <dimen name="end_dimension">20dp</dimen>   <!-- Bottom margin for reset button -->
 
 
