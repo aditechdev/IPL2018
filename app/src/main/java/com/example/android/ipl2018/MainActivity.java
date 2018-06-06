@@ -8,8 +8,8 @@ import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreTeamA = 0;
-    int scoreTeamB = 0;
+    public int scoreTeamA;
+    public int scoreTeamB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,26 +68,29 @@ public class MainActivity extends AppCompatActivity {
     }
     // Display score for team A //
     public void displayForTeamA(int scoreTeamA) {
-        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
-        scoreView.setText(String.valueOf(scoreTeamA));
+        TextView scoreViewA = (TextView) findViewById(R.id.team_a_score);
+        scoreViewA.setText(String.valueOf(scoreTeamA));
     }
     // Display score for team B //
     public void displayForTeamB(int scoreTeamB) {
-        TextView scoreView = (TextView) findViewById(R.id.team_b_score);
-        scoreView.setText(String.valueOf(scoreTeamB));
+        TextView scoreViewB = (TextView) findViewById(R.id.team_b_score);
+        scoreViewB.setText(String.valueOf(scoreTeamB));
     }
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt("count", scoreTeamA);
-        outState.putInt("count", scoreTeamB);
+        outState.putInt("countA", scoreTeamA);
+        outState.putInt("countB", scoreTeamB);
     }
 
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        savedInstanceState.getInt("count");
+        scoreTeamA = savedInstanceState.getInt("countA");
+        scoreTeamB = savedInstanceState.getInt("countB");
+        scoreViewA.setText(Integer.valueOf(scoreTeamA));
+        scoreViewB.setText(Integer.valueOf(scoreTeamB));
     }
 }
 
