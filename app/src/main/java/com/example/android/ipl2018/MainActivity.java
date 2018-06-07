@@ -89,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
         super.onRestoreInstanceState(savedInstanceState);
         scoreTeamA = savedInstanceState.getInt("countA");
         scoreTeamB = savedInstanceState.getInt("countB");
-        scoreViewA.setText(Integer.valueOf(scoreTeamA));
-        scoreViewB.setText(Integer.valueOf(scoreTeamB));
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
     }
 }
 
