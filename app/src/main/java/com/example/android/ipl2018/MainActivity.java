@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamB = scoreTeamB + 6;
         displayForTeamB(scoreTeamB);
     }
+
     //Reset score//
     public void resetTeamAandB(View v) {
         scoreTeamA = 0;
@@ -66,17 +67,20 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
+
     // Display score for team A //
     public void displayForTeamA(int scoreTeamA) {
         TextView scoreViewA = (TextView) findViewById(R.id.team_a_score);
         scoreViewA.setText(String.valueOf(scoreTeamA));
     }
+
     // Display score for team B //
     public void displayForTeamB(int scoreTeamB) {
         TextView scoreViewB = (TextView) findViewById(R.id.team_b_score);
         scoreViewB.setText(String.valueOf(scoreTeamB));
     }
 
+    //data save after rotation//
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
@@ -84,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt("countB", scoreTeamB);
     }
 
+    // data restore //
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
