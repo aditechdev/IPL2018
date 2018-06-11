@@ -16,46 +16,45 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     //Displays the given score for Team A.
     public void addOnePointsToA(View v) {
-        scoreTeamA++;
+        scoreTeamA ++ ;
         displayForTeamA(scoreTeamA);
     }
 
     public void addTwoPointsToA(View v) {
-        scoreTeamA = +2;
+        scoreTeamA +=2 ;
         displayForTeamA(scoreTeamA);
     }
 
     public void addFourPointsToA(View v) {
-        scoreTeamA = +4;
+        scoreTeamA +=4;
         displayForTeamA(scoreTeamA);
     }
 
     public void addSixPointsToA(View v) {
-        scoreTeamA = +6;
+        scoreTeamA +=6;
         displayForTeamA(scoreTeamA);
     }
 
     //**display the score of team b//
     public void addOnePointsToB(View v) {
-        scoreTeamB = +1;
+        scoreTeamB ++ ;
         displayForTeamB(scoreTeamB);
     }
 
     public void addTwoPointsToB(View v) {
-        scoreTeamB = +2;
+        scoreTeamB +=2;
         displayForTeamB(scoreTeamB);
     }
 
     public void addFourPointsToB(View v) {
-        scoreTeamB = +4;
+        scoreTeamB +=4;
         displayForTeamB(scoreTeamB);
     }
 
     public void addSixPointsToB(View v) {
-        scoreTeamB = +6;
+        scoreTeamB +=6;
         displayForTeamB(scoreTeamB);
     }
 
