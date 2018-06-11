@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,43 +19,43 @@ public class MainActivity extends AppCompatActivity {
 
     //Displays the given score for Team A.
     public void addOnePointsToA(View v) {
-        scoreTeamA = scoreTeamA + 1;
+        scoreTeamA++;
         displayForTeamA(scoreTeamA);
     }
 
     public void addTwoPointsToA(View v) {
-        scoreTeamA = scoreTeamA + 2;
+        scoreTeamA = +2;
         displayForTeamA(scoreTeamA);
     }
 
     public void addFourPointsToA(View v) {
-        scoreTeamA = scoreTeamA + 4;
+        scoreTeamA = +4;
         displayForTeamA(scoreTeamA);
     }
 
     public void addSixPointsToA(View v) {
-        scoreTeamA = scoreTeamA + 6;
+        scoreTeamA = +6;
         displayForTeamA(scoreTeamA);
     }
 
     //**display the score of team b//
     public void addOnePointsToB(View v) {
-        scoreTeamB = scoreTeamB + 1;
+        scoreTeamB = +1;
         displayForTeamB(scoreTeamB);
     }
 
     public void addTwoPointsToB(View v) {
-        scoreTeamB = scoreTeamB + 2;
+        scoreTeamB = +2;
         displayForTeamB(scoreTeamB);
     }
 
     public void addFourPointsToB(View v) {
-        scoreTeamB = scoreTeamB + 4;
+        scoreTeamB = +4;
         displayForTeamB(scoreTeamB);
     }
 
     public void addSixPointsToB(View v) {
-        scoreTeamB = scoreTeamB + 6;
+        scoreTeamB = +6;
         displayForTeamB(scoreTeamB);
     }
 
@@ -70,13 +69,13 @@ public class MainActivity extends AppCompatActivity {
 
     // Display score for team A //
     public void displayForTeamA(int scoreTeamA) {
-        TextView scoreViewA = (TextView) findViewById(R.id.team_a_score);
+        TextView scoreViewA = findViewById(R.id.team_a_score);
         scoreViewA.setText(String.valueOf(scoreTeamA));
     }
 
     // Display score for team B //
     public void displayForTeamB(int scoreTeamB) {
-        TextView scoreViewB = (TextView) findViewById(R.id.team_b_score);
+        TextView scoreViewB = findViewById(R.id.team_b_score);
         scoreViewB.setText(String.valueOf(scoreTeamB));
     }
 
@@ -98,4 +97,3 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreTeamB);
     }
 }
-
