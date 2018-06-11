@@ -118,7 +118,7 @@
             android:layout_marginBottom="@dimen/end_dimension"
             android:layout_marginTop="@dimen/reset"
             android:background="@drawable/ripple_effect"
-            android:onClick="resetTeamAandB"
+            android:onClick="reset_team_a_and_b"
             android:text="@string/reset"
             android:textColor="@color/thirdColor" />
     </LinearLayout>

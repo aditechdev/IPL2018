@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Reset score//
-    public void resetTeamAandB(View v) {
+    public void reset_team_a_and_b(View v) {
         scoreTeamA = 0;
         scoreTeamB = 0;
         displayForTeamA(scoreTeamA);
