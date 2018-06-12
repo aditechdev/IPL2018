@@ -19,30 +19,25 @@ IPL 2018 is my 2nd project of Android Basic Nano Degree
 - [x] Java
 
 
-## <a name="app-layout"></a>  Layout of app
+  ## <a name="app-layout"></a>  Layout of app
 
 
-  ### Initial layout of the App
-  
+   ### Initial layout of the App
 
   <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
-  <br></br>
-
-  ### Layout after pressing score button
   
-
+   <br></br>
+  
+  
+  ### Layout after pressing score button  
   <img src="app/src/main/res/drawable/afterscore.png" width="250" height="400">
   <br></br>
-
-  ### Data save after rotation
   
-
+  ### Data save after rotation
   <img src="app/src/main/res/drawable/afterrotation.png" width="400" height="250">
   <br></br>
-
-  ### Layout of the app, back to initial score after pressing "Reset" button.
   
-
+  ### Layout of the app, back to initial score after pressing "Reset" button.
   <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
   <br></br>
 
