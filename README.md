@@ -34,11 +34,11 @@ Version 1.0.0
 >### Layout of the app, back to initial score after pressing "Reset" button
 ***
 <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
+===
 
-***
+
 >**Endorse** my skills on *[Linkedin](https://www.linkedin.com/in/imadianand/)*
 
-***
 
 #### **Like my work**,<a name="contact-me"></a> *contact me here*
 >*[Instagram](https://www.instagram.com/imadianand/) [Twitter](https://twitter.com/imadianand) [Facebook](https://www.facebook.com/imadianand)*
