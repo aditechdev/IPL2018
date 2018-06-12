@@ -9,11 +9,16 @@ public class MainActivity extends AppCompatActivity {
 
     public int scoreTeamA;
     public int scoreTeamB;
+    TextView scoreViewA;
+    TextView scoreViewB;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        scoreViewA = findViewById(R.id.team_a_score);
+        scoreViewB = findViewById(R.id.team_b_score);
     }
 
     //Displays the given score for Team A.
@@ -68,13 +73,11 @@ public class MainActivity extends AppCompatActivity {
 
     // Display score for team A //
     public void displayForTeamA(int scoreTeamA) {
-        TextView scoreViewA = findViewById(R.id.team_a_score);
         scoreViewA.setText(String.valueOf(scoreTeamA));
     }
 
     // Display score for team B //
     public void displayForTeamB(int scoreTeamB) {
-        TextView scoreViewB = findViewById(R.id.team_b_score);
         scoreViewB.setText(String.valueOf(scoreTeamB));
     }
 
