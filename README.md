@@ -4,7 +4,7 @@
 Version 1.0.0
 
 
-> <a name="description-here"></a> **Description about the app:**
+## <a name="description-here"></a> **Description about the app:**
 
 
 IPL 2018 is my 2nd project of Android Basic Nano Degree
@@ -12,7 +12,7 @@ IPL 2018 is my 2nd project of Android Basic Nano Degree
 **IPL 2018** is the app which calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button
 
 
-### Build with
+## Build with
 ***
 - [x] XML
 - [x] Java
