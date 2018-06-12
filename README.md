@@ -13,7 +13,7 @@ IPL 2018 is my 2nd project of Android Basic Nano Degree
 
 
 ## Build with
-***
+
 - [x] XML
 - [x] Java
 
