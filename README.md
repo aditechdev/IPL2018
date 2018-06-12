@@ -42,7 +42,7 @@ IPL 2018 is my 2nd project of Android Basic Nano Degree
 
 ## **Like my work**,<a name="contact-me"></a>
 
->**Contact me** on *[Instagram>](https://www.instagram.com/imadianand/) [Twitter](https://twitter.com/imadianand) [Facebook](https://www.facebook.com/imadianand) [Google+](https://plus.google.com/u/1/115286953959216936009)*
+>**Contact me** on *[Instagram](https://www.instagram.com/imadianand/) [Twitter](https://twitter.com/imadianand) [Facebook](https://www.facebook.com/imadianand) [Google+](https://plus.google.com/u/1/115286953959216936009)*
 
 >**Endorse** my skills on *[Linkedin](https://www.linkedin.com/in/imadianand/)*
 
