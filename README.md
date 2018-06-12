@@ -22,6 +22,7 @@ In **IPL 2018** is the app which calculate the score of two team, by the help of
 
 <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
 
+*************************************************************************************************
 **Endorse** my skill on **Linkedin** https://www.linkedin.com/in/imadianand/
 
 **Follow** me on 
