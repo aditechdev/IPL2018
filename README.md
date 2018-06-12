@@ -23,10 +23,8 @@ IPL 2018 is my 2nd project of Android Basic Nano Degree
 
 
    ### Initial layout of the App
+   <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
 
-  <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
-  
-   <br></br>
   
   
   ### Layout after pressing score button  
