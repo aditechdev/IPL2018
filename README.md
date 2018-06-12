@@ -18,7 +18,11 @@ In **IPL 2018** is the app which calculate the score of two team, by the help of
 
 <img src="app/src/main/res/drawable/afterrotation.png" width="400" height="250">
 
-**#Layout of the app back to initial score after pressing "Reset" button**
+**#Layout of the app, back to initial score after pressing "Reset" button**
 
 <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
 
+**Endorse** my skill on **Linkedin** https://www.linkedin.com/in/imadianand/
+**Follow** me on 
+**Instagram** https://www.instagram.com/imadianand/
+**Twitter** https://twitter.com/imadianand
