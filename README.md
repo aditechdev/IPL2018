@@ -9,6 +9,11 @@ IPL 2018 is my 2nd project of Android Basic Nano Degree
 
 **IPL 2018** is the app which calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button
 
+### Language used
+- [x] XML
+- [x] Java
+
+
 <a name="app-layout"></a> **Initial layout of app**
 ***
 <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
