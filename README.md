@@ -5,6 +5,7 @@ Version 1.0.0
 ***
 IPL 2018 is my 2nd project of Android Basic Nano Degree
 In **IPL 2018** is the app which calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button
+
 **#Initial layout of app**
 ***
 <img src="app/src/main/res/drawable/initial.png" width="250" height="400">
@@ -25,5 +26,7 @@ In **IPL 2018** is the app which calculate the score of two team, by the help of
 **Endorse** my skill on **Linkedin** https://www.linkedin.com/in/imadianand/
 
 **Follow** me on 
+
 **Instagram** https://www.instagram.com/imadianand/
+
 **Twitter** https://twitter.com/imadianand
