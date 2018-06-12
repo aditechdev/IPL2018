@@ -1,4 +1,5 @@
-|| [Contact](#contact-me)      ||      [Description](#description-here)  ||    [App Layout](#app-layout)||
+| [Contact](#contact-me) | [Description](#description-here) | [App Layout](#app-layout) |
+|--- |--- |--- |
 
 # Business-Card
 Version 1.0.0
