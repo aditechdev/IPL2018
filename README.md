@@ -42,7 +42,7 @@ IPL 2018 is my 2nd project of Android Basic Nano Degree
 
 ## **Like my work**,<a name="contact-me"></a>
 
->**Contact me** on *[<img src="https://github.com/imadianand/logo/blob/master/instagram-icon_1057-2227.jpg" width="25" height="25">](https://www.instagram.com/imadianand/) [<img src="https://github.com/imadianand/logo/blob/master/twitter.jpg" width="25" height="25">](https://twitter.com/imadianand) [<img src="https://github.com/imadianand/logo/blob/master/facebook-logo.png" width="25" height="25">](https://www.facebook.com/imadianand) [<img src="https://github.com/imadianand/logo/blob/master/google_plus.jpg" width="25" height="25">](https://plus.google.com/u/1/115286953959216936009)*
+>**Contact me** on *[<img src="https://github.com/imadianand/logo/blob/master/instagram-icon_1057-2227.jpg" width="30" height="30">](https://www.instagram.com/imadianand/) [<img src="https://github.com/imadianand/logo/blob/master/twitter.jpg" width="30" height="30">](https://twitter.com/imadianand) [<img src="https://github.com/imadianand/logo/blob/master/facebook-logo.png" width="35height="35](https://www.facebook.com/imadianand) [<img src="https://github.com/imadianand/logo/blob/master/google_plus.jpg" width="30" height="30](https://plus.google.com/u/1/115286953959216936009)*
 
 >**Endorse** my skills on *[<img src="https://github.com/imadianand/logo/blob/master/linkedin-logo-copy.png" width="25" height="25">](https://www.linkedin.com/in/imadianand/)*
 
