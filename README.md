@@ -9,10 +9,10 @@ Version 1.0.0
 
 
 * IPL 2018 is my 2nd project of **Android Basic Nano Degree** under the guidence of:
-   * <img src="https://github.com/imadianand/logo/blob/master/udacity_logo.png" width="100" height= "30" > **and**
-   * <img src="https://github.com/imadianand/logo/blob/master/2000px-Google_2015_logo.svg.png" width="80" height= "30"> .
+   * <img src="https://github.com/imadianand/logo/blob/master/udacity_logo.png" width="100" height= "30" >
+   * <img src="https://github.com/imadianand/logo/blob/master/2000px-Google_2015_logo.svg.png" width="80" height= "30">
 
-* The app calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button and it met all the specification given in [project rubrics](#rubrics).
+* The app calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button and it met all the specification given in *[project rubrics](#rubrics)*.
 
 ## <a name="rubrics"> Project Rubrics
 
