@@ -1,4 +1,4 @@
-|[Contact](#contact-me)|[Description](#description-here)|[App Layout](#app-layout)|[Build with](#build-with)|[Rubrics](#rubrics)|
+|[Contact](#contact-me)|[Description](#description-here)|[App Layout](#app-layout)|[Build with](#build-with)|[Project Rubrics](#rubrics)|
 |---|---|---|---|---|
 
 # Business-Card
@@ -10,7 +10,7 @@ Version 1.0.0
 
 IPL 2018 is my 2nd project of Android Basic Nano Degree
 
-**IPL 2018** is the app which calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button and it follows all the specification given in [project rubrics](#rubrics).
+**IPL 2018** is the app which calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button and it met all the specification given in [project rubrics](#rubrics).
 
 ## <a name="rubrics"> Project Rubrics
 
