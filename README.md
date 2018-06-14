@@ -1,5 +1,5 @@
-|[Contact](#contact-me)|[Description](#description-here)|[App Layout](#app-layout)|[Build with](#build-with)|
-|---|---|---|---|
+|[Contact](#contact-me)|[Description](#description-here)|[App Layout](#app-layout)|[Build with](#build-with)|[Rubrics](#rubrics)|
+|---|---|---|---|---|
 
 # Business-Card
 Version 1.0.0
@@ -10,8 +10,47 @@ Version 1.0.0
 
 IPL 2018 is my 2nd project of Android Basic Nano Degree
 
-**IPL 2018** is the app which calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button
+**IPL 2018** is the app which calculate the score of two team, by the help of score button and it can be reset to 0 by Reset button and it follows all the specification given in [project rubrics](#rubrics).
 
+## <a name="rubrics"> Project Rubrics
+
+   > **Layout of the app**
+   
+   - [x] The chosen game has either multiple amounts of points that can be scored, as in american football, or multiple important                metrics to track, such as fouls, outs, and innings in baseball.
+   
+   - [x] App is divided into two columns, one for each team.
+   
+   
+   - [x] Each column contains a large TextView to keep track of the current score for that team.
+   
+   - [x] Each column contains multiple buttons. The buttons must track either:
+         
+        * Each track a different kind of scoring 
+            
+            or
+        * Each track a different metric (one score, the other fouls, for instance).
+   
+   
+   - [x] The layout contains a ‘reset’ button.
+   
+   - [x] "The code adheres to all of the following best practices:
+   
+       * Text sizes are defined in sp
+       * Lengths are defined in dp
+       * Padding and margin is used appropriately, such that the views are not crammed up against each other."
+   
+   > **Functionality**
+    
+   - [x] The code runs without errors.
+   - [x] Each score button updates the score TextView in its column by adding the correct number of points.
+   - [x] The reset button resets the scores on both of the score TextViews.
+   
+   > **Code Readability**
+   
+   - [x] Any classes are named after the object they represent.All variables are named by their intended contents.
+   - [x] All methods are named by their intended effect or in the style required by a callback interface.
+   - [x] There are no unnecessary blank lines.One variable is declared per declaration line.
+   - [x] The code within a method is indented with respect to the method declaration line.
 
 ## <a name="build-with"></a> Build with
 
