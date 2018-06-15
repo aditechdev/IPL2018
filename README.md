@@ -1,4 +1,4 @@
-|[Contact](#contact-me)|[Description](#description-here)|[App Layout](#app-layout)|[Build with](#build-with)|[Project Rubrics](#rubrics)|
+|[Description](#description-here)|[Project Rubrics](#rubrics)|[Build with](#build-with)|[App Layout](#app-layout)|[Contact](#contact-me)|
 |---|---|---|---|---|
 
 # Business-Card
