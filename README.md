@@ -1,7 +1,7 @@
 |[![Description](https://img.shields.io/badge/Project-Description-yellow.svg)](#description-here)|[![Project Rubrics](https://img.shields.io/badge/Project-Rubrics-red.svg)](#rubrics)|[![Build with](https://img.shields.io/badge/Build-With-brightgreen.svg)](#build-with)|[![App Layout](https://img.shields.io/badge/App-Layout-blue.svg)](#app-layout)|[![Contact](https://img.shields.io/badge/Social-online-yellowgreen.svg)](#contact-me)|
 |---|---|---|---|---|
 
-# Business-Card
+# Court Counter App 
 
 > **Version 1.0.0**
 
