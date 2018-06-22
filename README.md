@@ -57,7 +57,7 @@
 
 ## <a name="build-with"></a> Build with
 
-- [x] [XML](app/src/main/java/com/example/android/ipl2018/MainActivity.java)
+- [x] [XML](app/src/main/res/layout/activity_main.xml)
 - [x] [Java](app/src/main/java/com/example/android/ipl2018/MainActivity.java)
 
 
